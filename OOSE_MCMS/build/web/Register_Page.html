@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link REL="StyleSheet" TYPE="text/css" HREF="Register_Page.css">
+    </head>
+
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+            <br/>
+            <img src = "images/logo.png" alt='logo'>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                    <li><a href=#>About Vizag</a></li>
+                    <li><a href=#>Departments</a></li>
+                    <li><a href=#>Activities</a></li>
+                    <li><a href=#>Register</a></li>
+                    <li><a href=#>Home</a></li>
+            </ul>
+        </div>
+        <form action="Reg">
+            <div class="register_form animated fadeInUp">
+                <div class="box-header">
+                    <h2>Register Your Complaint</h2>
+                </div>
+                <table border=0 cellpadding=10 align=center>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type=text name=name size=33 maxlength=30 placeholder="type your name"></td>
+                    </tr>
+                    <tr>
+                            <td>Contact No.</td>
+                            <td><input type=text name=number size=33 maxlength=10 placeholder="type your number"></td>
+                    </tr>
+                    <tr>
+                            <td>Complaint Type</td>
+                            <td>
+                                <select name="Problem">
+                                <option value="Drinage">Drinage</option>
+                                <option value="Water">Water</option>
+                                <option value="Current Poles">Current Poles</option>
+                                <option value="Garbage Cleaning">Garbage Cleaning</option>
+                                <option value="Others">Others</option>
+                                </select>
+                            </td>
+                    </tr>
+                    <tr>
+                            <td>Description</td>
+                            <td><input type=text name=description size=33 maxlength=80 placeholder="give description of your complaint"></td>
+                    </tr>
+                    <tr>
+                            <td>Location</td>
+                            <td><input type=text name=location size=33 maxlength=80 placeholder="enter location"></td>
+                    </tr>  
+                </table>
+                <button type="submit">Register</button>
+                <br/>
+                <br/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

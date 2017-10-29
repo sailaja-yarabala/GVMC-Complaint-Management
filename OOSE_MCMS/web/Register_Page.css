@@ -1,0 +1,127 @@
+
+body{
+	background-image:url("images/bg_rp.jpg");
+	background-size: cover;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	color: #666;
+}
+.main{
+	width:1000px;
+	margin:0px auto;
+}
+.header{
+	width:1000px;
+	height:100px;
+	background-color :  #665851;
+}
+.menu{
+	width:1000px;
+	height:30px;
+	background:linear-gradient(to top,#462C2D,white);
+}
+.register_form {
+	background-color: white;
+	max-width:700px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	text-align: center;
+}.register_form .box-header {
+	background-color: #665851;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.register_form label {
+	font-weight: 100;
+	font-size: .8em;
+	color: #888;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.register_form input {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: .9em;
+	color: #888;
+}
+h2 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+.register_form input:focus {
+	outline: none;
+	border-color: #665851;
+	transition: 0.5s;
+	color: #665851;
+}
+
+.register_form button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #665851;
+	cursor:pointer;
+	outline: none;
+}
+.register_form button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.selected {
+	color: #665851!important;
+	transition: 0.5s;
+}
+.content{
+	width:1000px;
+	height:300px;
+	background-color : gray;
+}
+
+.logo{
+	width:200px;
+	height:100px;
+	background-image:url("images/logo.jpg");
+	float:left;
+}
+.menu ul{
+	width:10000px;
+	float:right;
+	margin-top:0px;
+	padding-right:0px;
+}
+.menu ul li{
+	list-style:none;
+	border-right:1px solid black;
+	float:right;	
+}
+.menu ul li a{
+	color : black;
+	text-decoration:none;
+	display:block;
+	padding:5px 33px 5px 33px;
+}
+.menu ul li a:hover{
+	background: linear-gradient(to top,white,#462C2D);
+}
